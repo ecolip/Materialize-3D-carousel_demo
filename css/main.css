@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+  box-sizing: border-box;
+}
+.carousel {
+  transform: translateY(-100px);
+  height: 700px;
+}
+.carousel .carousel-item {
+  width: 300px;
+  height: 300px;
+}
+.carousel .carousel-item img {
+  height: 100%;
+}
+.name {
+  position: relative;
+  top: -5px;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}

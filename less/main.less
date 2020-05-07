@@ -1,0 +1,29 @@
+body{
+	background-color: #000;
+	box-sizing: border-box;
+}
+.carousel{
+	transform: translateY(-100px);
+	height: 700px;
+	// perspective: 600px; //物件距離螢幕z=0的距離，如果值越大代表離螢幕z=0越遠，物件看起來越大，此屬性只需要設定在父元素，與它本身的option dist一樣，擇一使用即可
+	// -webkit-perspective: 600px; //safari
+	// -moz-perspective: 600px; //火狐
+	// -ms-perspective: 600px; //火狐, mozilla
+	.carousel-item{
+		width: 300px;
+		height: 300px;
+		img{
+			height: 100%;
+		}
+	}
+}
+.name{
+	position: relative; //如果不想要圖片下面有空隙可以加
+    top: -5px;
+	padding: 10px 0;
+	text-align: center;
+	background: #fff;
+	font-size: 18px;
+	font-weight: 700;
+
+}
